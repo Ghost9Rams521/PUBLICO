@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PUBLICO</title>
+
+	</head>
+	
+	<body>
+		<div id="principale">
+
+			<div id="presentation">
+				<div id="titre_principale">
+					<h1 id="titre_principale_2"><i><div style="letter-spacing:15px;"><a href="index.html">PUBLICO</a></i></h1>
+				</div>
+				
+
+				<div id="flexCenter">
+					<div id="barre_de_recherche_2">
+						<input id="barre_de_recherche" type="search" placeholder="Rechercher">
+					</div>
+					<div id="search">
+						<input type="submit" value="Envoyer">
+					</div>
+					<div id="SignUp">
+						<h3><a href="SignUp.html" id="SignUp-css">SignUp</a></h3>
+						
+					</div>
+					<div id="Login">
+						<h3><a href="Login.html" id="Login-css">Login</a></h3>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="SignUp_formulaire">
+			<h1 id="titre_SignUp">IDENTIFIEZ-VOUS :</h1>
+			<div id="formulaire">
+				<div id="caractere">
+					<h3>NOUVEAU CLIENT ?</h3>
+				<form method="post" action="traitement.php">
+					<input type="text" id="prenom" name="prenom" placeholder="Prenom" required="required">
+					<br><br>
+
+					<input id="nom" type="text" name="nom" placeholder="Nom" required="required">
+					<br><br>
+					
+					<input id="addresse" type="text" name="addresse" placeholder="Addresse" required="required">
+					<br><br>
+
+					<select name="pays" id="pays" required="required">
+						<optgroup label="Europe">
+							<option value="france">FRANCE</option>
+							<option value="belgique">BELGIQUE</option>
+							<option value="suisse">SUISSE</option>
+							<option value="allemagne">ALLEMAGNE</option>
+							<option value="italy">ITALIE</option>
+							<option value="espagne">ESPAGNE</option>
+							<option value="pays-bas">PAYS-BAS</option>
+							<option value="autriche">AUTRICHE</option>
+							<option value="finlande">FINLANDE</option>
+							<option value="monaco">MONACO</option>
+							<option value="luxembourg">LUXEMBOURG</option>
+							<option value="guadeloupe">GUADELOUPE</option>
+							<option value="martinique">MARTINIQUE</option>
+							<option value="bulgarie">BULGARIE</option>
+							<option value="croatie">CROATIE</option>
+							<option value="malte">MALTE</option>
+							<option value="pologne">POLOGNE</option>
+						</optgroup>
+						<optgroup label="Afrique">
+							<option value="maroc">MAROC</option>
+							<option value="algérie">ALGÉRIE</option>
+							<option value="tunisie">TUNISIE</option>
+							<option value="afrique du sud">AFRIQUE DU SUD</option>
+							<option value="nigeria">NIGERIA</option>
+							<option value="kenya">KENYA</option>
+							<option value="senegale">SENEGALE</option>
+							<option value="mali">MALI</option>
+							<option value="congo">CONGO</option>
+							<option value="tanzanie">TANZANIE</option>
+							<option value="cote d'ivoire">COTE D'IVOIRE</option>
+							<option value="somalie">SOMALIE</option>
+							<option value="niger">NIGER</option>
+							<option value="libye">LIBYE</option>
+							<option value="gabon">GABON</option>
+						</optgroup>
+						<optgroup label="Asie">
+							<option value="japon">JAPON</option>
+							<option value="chine">CHINE</option>
+							<option value="indonesie">INDONESIE</option>
+							<option value="inde">INDE</option>
+							<option value="thailande">THAILANDE</option>
+							<option value="coree du sud">COREE DU SUD</option>
+							<option value="vietnam">VIETNAM</option>
+							<option value="singapour">SINGAPOUR</option>
+							<option value="iran">IRAN</option>
+							<option value="arabie saoudite">ARABIE SAOUDITE</option>
+							<option value="honk kong">HONK KONG</option>
+							<option value="taiwan">TAIWAN</option>
+							<option value="cambodge">CAMBODGE</option>
+							<option value="bangladesh">BANGLADESH</option>
+							<option value="israel">ISRAEL</option>
+						</optgroup>
+						<optgroup label="Amerique">
+							<option value="etats-unis">ETATS-UNIS</option>
+							<option value="canada">CANADA</option>
+							<option value="mexique">MEXIQUE</option>
+							<option value="bresil">BRESIL</option>
+							<option value="argentine">ARGENTINE</option>
+							<option value="colombie">COLOMBIE</option>
+							<option value="perou">PEROU</option>
+							<option value="costa rica">COSTA RICA</option>
+							<option value="cuba">CUBA</option>
+							<option value="bolivie">BOLIVIE</option>
+							<option value="uruguay">URUGUAY</option>
+							<option value="jamaique">JAMAIQUE</option>
+							<option value="guyane">GUYANE</option>
+							<option value="guadeloupe">GUADELOUPE</option>
+							<option value="bahamas">BAHAMAS</option>
+							<option value="haiti">HAITI</option>
+						</optgroup>
+						<optgroup label="ROYAUME-UNIS">
+							<option value="angletterre">ANGLETTERRE</option>
+							<option value="ecosse">ECOSSE</option>
+							<option value="irlande">IRLANDE</option>
+							<option value="pays de galles">PAYS DE GALLES</option>
+						</optgroup>
+						
+					</select>
+					<br><br>
+
+					<input id="age" type="date" name="age" placeholder="Age" required="required">
+					<br><br>
+
+					<input id="tel" type="number" name="tel" placeholder="Numéro de telephone" required="required">
+					<br><br>
+
+					<input id="email" type="email" name="email" placeholder="Addresse mail" required="required">
+					<br><br>
+
+					<input id="mot_de_passe" type="password" name="mot_de_passe" placeholder="Mot de passe" required="required">
+					<br><br>
+
+					<input type="radio" name="sexe" id="homme" value="homme" required="required">
+					<label for="homme">M.</label>
+
+					<input type="radio" name="sexe" id="femme" value="femme" required="required">
+					<label for="femme">Mme</label>
+					<br><br><br>
+			
+					<input id="button" type="submit" value="VALIDER">
+				</form>
+				<br><br><br><br>
+				<div id="Login_SignUp">
+					<a href="Login.html">LOGIN ?</a>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</body>
+</html>
